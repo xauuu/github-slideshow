@@ -42,8 +42,8 @@ class MainActivity : AppCompatActivity() {
         diceImage2.setImageResource(R.drawable.dice_1)
     }
 
-    private fun drawableResource(number: Int): Int {
-        return when (number) {
+    private fun drawableResource(random: Int): Int {
+        return when (random) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3
