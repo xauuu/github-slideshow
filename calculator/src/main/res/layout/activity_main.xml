@@ -22,7 +22,7 @@
         <TextView
             android:id="@+id/tvExpression"
             android:layout_width="match_parent"
-            android:layout_height="77dp"
+            android:layout_height="80dp"
             android:gravity="right"
             android:textColor="#000000"
             android:textSize="32sp" />
@@ -42,33 +42,21 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:text=""
-                app:cornerRadius="0dp"
-                app:strokeWidth="0dp" />
-
-            <Button
                 android:id="@+id/btClear"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:focusableInTouchMode="false"
-                android:fontFamily="sans-serif-medium"
-                android:freezesText="false"
-                android:hapticFeedbackEnabled="false"
+                android:background="#D5E9FF"
+                android:fontFamily="sans-serif"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="C"
                 android:textAllCaps="true"
+                android:textColor="#000000"
                 android:textColorHint="#FFFFFF"
-                android:textIsSelectable="false"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
@@ -76,26 +64,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:ellipsize="none"
                 android:gravity="center|right|center_vertical|end"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
-                android:textSize="14sp"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp"
                 app:icon="@android:drawable/ic_input_delete"
-                app:iconGravity="textStart" />
-
-            <Button
-                android:id="@+id/btDivide"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:text="/"
-                android:textSize="24sp"
-                android:typeface="sans"
-                app:cornerRadius="0dp" />
+                app:iconGravity="textStart"
+                app:iconSize="24dp"
+                app:iconTint="#000000" />
 
         </LinearLayout>
         <LinearLayout
@@ -112,8 +93,10 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="7"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
@@ -121,11 +104,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="8"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
@@ -133,23 +119,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="9"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/btMul"
+                android:id="@+id/btDivide"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
-                android:text="*"
+                android:text="/"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
@@ -164,11 +155,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="4"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
@@ -176,11 +170,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="5"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
@@ -188,26 +185,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="6"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/btMinus"
+                android:id="@+id/btMul"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
-                android:singleLine="true"
-                android:text="-"
-                android:textIsSelectable="false"
+                android:text="*"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
-                android:verticalScrollbarPosition="defaultPosition"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
@@ -222,11 +222,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="1"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
@@ -234,11 +237,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="2"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
@@ -246,23 +252,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="3"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
-                android:id="@+id/btPlus"
+                android:id="@+id/btMinus"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
-                android:text="+"
+                android:singleLine="true"
+                android:text="-"
+                android:textColor="#000000"
+                android:textIsSelectable="false"
                 android:textSize="24sp"
                 android:typeface="sans"
+                android:verticalScrollbarPosition="defaultPosition"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
@@ -280,7 +295,9 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="."
+                android:textColor="#000000"
                 android:textSize="24sp"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
@@ -288,21 +305,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="0"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
-                app:cornerRadius="0dp" />
-
-            <Button
-                android:id="@+id/bt"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:text=""
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
             <Button
@@ -310,11 +320,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#D5E9FF"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="="
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#D5E9FF"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="+"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:typeface="sans"
+                app:backgroundTint="#D5E9FF"
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
